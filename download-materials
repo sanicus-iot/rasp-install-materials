@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Make sure the version matches your requirements"
+wget https://github.com/sanicus-iot/rasp-install-materials/raw/refs/heads/master/install-v1.gpg
+gpg -d -o install.tgz install-v1.gpg
+# Will ask for passphrase
+tar xfz install.tgz
+bash start-installation
