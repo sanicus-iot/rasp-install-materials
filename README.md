@@ -28,7 +28,9 @@ Now plug the WiFi aerial into one of the blue USB ports on the rear of the Pi
 
 Power the Pi on.
 
-After about 20 seconds you can SSH onto the Pi to continue the installation.
+After about 2 minutes you can SSH onto the Pi to continue the installation.
+
+Open a terminal (Putty on windows) and type the following:
 
 ```console
 ssh pi@occupancy.local
@@ -40,7 +42,7 @@ You will be prompted for the password entered (this is the Pi password provided 
 wget "https://github.com/sanicus-iot/rasp-install-materials/raw/refs/heads/master/download-materials"
 bash download-materials
 ```
-This will start the first phase of the install - the Wifi card - once complete the Pi will reboot - this is perfectly normal.
+This will start the first phase of the installation - the Wifi card - once complete the Pi will reboot - this is perfectly normal.
 
 Once the Pi has restarted you should see a green flashing light on the Aerial.
 
@@ -50,5 +52,4 @@ Connect again
 ssh pi@occupancy.local
 bash pi-install.sh
 ```
-
 This will complete the software installation
