@@ -54,10 +54,14 @@ This will start the first phase of the installation - the Wifi card - once compl
 
 Once the Pi has restarted you should see a green flashing light on the Aerial.
 
-Connect again 
+Connect again using the command below:
 
 ```console
 ssh pi@occupancy.local
+```
+The start the full software install by typing the following command:
+
+```console
 bash pi-install.sh
 ```
 At the end of this process the system will open 'raspi-config' 
@@ -75,6 +79,13 @@ The question 'would you like to reboot', select 'yes'... the system will reboot.
 ssh pi@occupancy.local
 bash ./set-occupancy
 ```
-You will be asked to enter the 
+You will be asked to enter the occupancy ID and the designation
+
+The occupancy ID can be found by using the [Admin Console](https://admin.sanicus-connect.com)
+
+If you select the washroom site on the header, then select assets on the left menu, choose the male/female/prm etc washroom you are interested in and select the 'Info' button on the asset toolbar, you will be presented with a dialog box, 
+if you then copy the 'Asset Id' (<em>it will look something like a534044e-c714-4de2-8bee-a281b98434de</em>) and paste this into the occupancy id, then enter a designation MALE/FEMALE etc.
+
+Once you press enter 
 
 This will complete the software installation
