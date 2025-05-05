@@ -75,8 +75,12 @@ The question 'would you like to reboot', select 'yes'... the system will reboot.
 
 ### Setting the occupancy washroom and Designation
 
+Connect to the Pi
 ```console
 ssh pi@occupancy.local
+```
+Set the occupancy type:
+```console
 bash ./set-occupancy
 ```
 You will be asked to enter the occupancy ID and the designation
@@ -86,6 +90,6 @@ The occupancy ID can be found by using the [Admin Console](https://admin.sanicus
 If you select the washroom site on the header, then select assets on the left menu, choose the male/female/prm etc washroom you are interested in and select the 'Info' button on the asset toolbar, you will be presented with a dialog box, 
 if you then copy the 'Asset Id' (<em>it will look something like a534044e-c714-4de2-8bee-a281b98434de</em>) and paste this into the occupancy id, then enter a designation MALE/FEMALE etc.
 
-Once you press enter 
+Once you press enter the system will download the latest occupancy screen software and reboot
 
-This will complete the software installation
+**NOTE: Once the system reboots it can no longer be accessed as occupancy.local, it will change the host to be <desig>.local e.g. female.local or male.local
