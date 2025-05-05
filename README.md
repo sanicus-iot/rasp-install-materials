@@ -12,5 +12,11 @@ the card of choice is a SanDisk Ultra microSDHC UHS-I card an Amazon link can be
 * Download a copy of Raspberry Pi Imager [here](https://www.raspberrypi.com/software/)
 * Follow the video below to select the appropriate operating system and WiFi configuration
 
+[video link](https://github.com/sanicus-iot/rasp-install-materials/raw/refs/heads/master/setup-pi.mp4)
 
+**ENSURE THE Pi IS POWERED OFF**
+
+Insert the SD card into the Pi (small SD cardholder on the bottom of the Pi )
+
+![SD Install Location](https://github.com/sanicus-iot/rasp-install-materials/raw/refs/heads/master/pi-card.png "SD Install")
 
