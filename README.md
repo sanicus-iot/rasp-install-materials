@@ -43,6 +43,7 @@ If you are, just type **yes** followed by enter.
 
 You will be prompted for the password entered (this is the Pi password provided when creating the Pi OS)
 
+Type the following two commands on the command line:
 ```console
 wget "https://github.com/sanicus-iot/rasp-install-materials/raw/refs/heads/master/download-materials"
 bash download-materials
