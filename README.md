@@ -42,6 +42,8 @@ You will be prompted for the password entered (this is the Pi password provided 
 wget "https://github.com/sanicus-iot/rasp-install-materials/raw/refs/heads/master/download-materials"
 bash download-materials
 ```
+You will be asked for the 'Installation Materials' password
+
 This will start the first phase of the installation - the Wifi card - once complete the Pi will reboot - this is perfectly normal.
 
 Once the Pi has restarted you should see a green flashing light on the Aerial.
