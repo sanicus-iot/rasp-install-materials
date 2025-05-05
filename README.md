@@ -5,10 +5,10 @@ These scripts are pulled when a new SD card is created for use as an On Screen D
 
 ## Install a new Raspberry Pi OSD
 
-Raspberry Pi operating system is install onto an SD card, the SD card used is important to ensure the Pi runs at optimal speed, 
+Raspberry Pi operating system is installed onto an SD card, the SD card used is important to ensure the Pi runs at optimal speed, 
 the card of choice is a SanDisk Ultra microSDHC UHS-I card an Amazon link can be found [here](https://www.amazon.co.uk/dp/B08GY9NYRM?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1). 
 
-* Unpack and insert the SD card into your machine
+* Unpack and insert the SD card into the computer you will use to create the OS (NOT the Pi)
 * Download a copy of Raspberry Pi Imager [here](https://www.raspberrypi.com/software/)
 * Follow the video below to select the appropriate operating system and WiFi configuration
 
@@ -19,4 +19,8 @@ the card of choice is a SanDisk Ultra microSDHC UHS-I card an Amazon link can be
 Insert the SD card into the Pi (small SD cardholder on the bottom of the Pi )
 
 ![SD Install Location](https://github.com/sanicus-iot/rasp-install-materials/raw/refs/heads/master/pi-card.png "SD Install")
+
+Now plug the WiFi aerial into one of the blue USB ports on the rear of the Pi
+
+![Aerial](https://github.com/sanicus-iot/rasp-install-materials/raw/refs/heads/master/Aerial.png "Aerial")
 
