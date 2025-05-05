@@ -62,7 +62,7 @@ ssh pi@occupancy.local
 The start the full software install by typing the following command:
 
 ```console
-bash pi-install.sh
+bash ./pi-install.sh
 ```
 At the end of this process the system will open 'raspi-config' 
 
