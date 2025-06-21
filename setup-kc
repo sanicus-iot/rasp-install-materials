@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "OCC_UUID=\"a2237b4d-9dbc-49da-ad8e-8c2dc513afb9\"" > occ-env
+echo "OCC_DESIG=\"MALE\"" >> occ-env
+
